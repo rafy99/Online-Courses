@@ -1,0 +1,91 @@
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a:hover{
+  text-decoration-line: none;
+}
+
+/*Navbar cusom*/
+.navbar-custom {
+    background-color: black;
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand{
+  color:white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.navbar-custom .navbar-text {
+    color: rgba(255,255,255,.8);
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: rgba(255,255,255,.5);
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #ffffff;
+}
+
+
+
+
+/* box card styling */
+.checked{
+  color:orange;
+}
+
+.fa-github{
+	color:black;
+}
+.fa-youtube-play,.fa-youtube{
+	color:red;
+}
+
+.fa-facebook{
+	color:#3C5A98;
+}
+.fa-twitter{
+	color:#2AA9E0;
+}
+.fa-linkedin{
+	color:#0073b1;
+}
+.fa-globe{
+	color:gray;
+}
+
+
+.check-box-marked{
+  float:right;
+  font-size:20px;
+  color:green;
+}
+.check-box-unmarked{
+  float:right;
+  font-size:20px;
+  color:black;
+}
+
+/* show 1 card body  */
+.black{
+  color:black;
+}
+.hover_blue:hover{
+  color:blue
+}
+.hover_red:hover{
+  color:red;
+  font-weight: bold;
+}
+.bold{
+  color:black;
+  font-weight: bold;
+}
+.bold:hover,.bold:focus{
+  text-decoration-line: none;
+}
