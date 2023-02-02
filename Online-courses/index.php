@@ -1,8 +1,12 @@
 <?php
 
+/* TODO: Port to a better programming language */
+
 session_start();
 $servername = "localhost";
 $dbname= "courses";
+
+/* TODO: Set a password on mysql */
 $username = "root";
 $password = "";
 
