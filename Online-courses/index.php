@@ -24,6 +24,9 @@ function redirect($path,$key=-1,$value=-1){
 	exit();
 }
 
+/* TODO: If a function is not called why does it exist? */
+/* WARN: s/libirary/library/g */
+
 function libirary($path){
 	return "lib/" . $path;
 }
