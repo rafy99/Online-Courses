@@ -1,8 +1,12 @@
 <?php
 
+/* TODO: Port to a better programming language */
+
 session_start();
 $servername = "localhost";
 $dbname= "courses";
+
+/* TODO: Set a password on mysql */
 $username = "root";
 $password = "";
 
@@ -23,6 +27,9 @@ function redirect($path,$key=-1,$value=-1){
 	}
 	exit();
 }
+
+/* TODO: If a function is not called why does it exist? */
+/* WARN: s/libirary/library/g */
 
 function libirary($path){
 	return "lib/" . $path;
@@ -65,3 +72,4 @@ $app = new App();
 
 
 //end
+?>
